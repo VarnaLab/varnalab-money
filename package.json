@@ -1,0 +1,33 @@
+{
+  "name": "varnalab-money",
+  "version": "1.0.0",
+  "description": "VarnaLab Money",
+  "private": true,
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/varnalab/varnalab-money",
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (https://simov.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varnalab/varnalab-money.git"
+  },
+  "dependencies": {
+    "@request/client": "^0.1.0",
+    "minimist": "^1.2.0",
+    "purest": "^3.1.0",
+    "xlsx": "^0.11.16"
+  },
+  "devDependencies": {
+    "@request/log": "^0.1.0"
+  },
+  "bin": {
+    "varnalab-money": "./bin/"
+  },
+  "main": "./lib/",
+  "files": [],
+  "scripts": {},
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  }
+}
